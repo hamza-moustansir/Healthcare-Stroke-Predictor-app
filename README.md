@@ -19,42 +19,54 @@ Machine Learning: Scikit-learn, Pandas, NumPy
 Database: mySQL
 
 ⚙️ Installation & Setup
-Prerequisites
+
 Python 3.8+
+
 Node.js 16+
+
 pip & npm installed
 
 1. Clone the Repository
 bash
 git clone https://github.com/yourusername/Healthcare-Stroke-Predictor-app.git
+
 cd Healthcare-Stroke-Predictor-app
-2. Backend Setup (Flask)
-bash
+
+3. Backend Setup (Flask)
+
 cd backend
+
 python -m venv venv
+
 source venv/bin/activate  # Linux/Mac
+
 venv\Scripts\activate     # Windows
+
 pip install -r requirements.txt
+
 flask run
 (The API will run at http://localhost:5000)
 
 3. Frontend Setup (React)
-bash
+
 cd frontend
+
 npm install
+
 npm start
 (The app will run at http://localhost:3000)
 
 📊 ML Model Details
+
 Algorithm: Q-Learning
 
 Features Used:
-Age
-Hypertension
-Heart Disease
-Avg. Glucose Level
-BMI
-Smoking Status
+Age,
+Hypertension,
+Heart Disease,
+Avg. Glucose Level,
+BMI,
+Smoking Status.
 
 
 📜 License
