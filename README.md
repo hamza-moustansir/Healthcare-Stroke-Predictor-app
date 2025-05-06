@@ -1,7 +1,6 @@
 Healthcare Stroke Predictor �⚕️
 Predict stroke risk based on health data using Machine Learning (ML) with Flask API and React frontend.
 
-Demo (Remplacez par un gif ou screenshot réel)
 
 📌 Features
 Machine Learning Model: Predicts stroke risk based on input parameters (age, hypertension, heart disease, glucose levels, etc.).
@@ -10,25 +9,19 @@ Flask API: Backend server handling predictions.
 
 React Frontend: User-friendly interface to input data and view predictions.
 
-Responsive Design: Works on desktop and mobile.
-
 🚀 Technologies Used
-Frontend: React.js, TailwindCSS (or Bootstrap)
+Frontend: React.js, TailwindCSS, shadcn
 
-Backend: Python, Flask
+Backend: Python, Flask, JWT
 
 Machine Learning: Scikit-learn, Pandas, NumPy
 
-Database: SQLite / PostgreSQL (optional)
-
-Deployment: Docker, Heroku / Vercel / Render
+Database: mySQL
 
 ⚙️ Installation & Setup
 Prerequisites
 Python 3.8+
-
 Node.js 16+
-
 pip & npm installed
 
 1. Clone the Repository
@@ -56,17 +49,11 @@ npm start
 Algorithm: Q-Learning
 
 Features Used:
-
 Age
-
 Hypertension
-
 Heart Disease
-
 Avg. Glucose Level
-
 BMI
-
 Smoking Status
 
 
